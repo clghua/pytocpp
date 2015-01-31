@@ -18,3 +18,5 @@ def visit_UnaryOp(node):
         list.append(tokenize(node))
     else:
         list.append(NodeWalker.generic_visit(node))
+
+    return list
