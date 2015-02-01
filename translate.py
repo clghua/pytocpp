@@ -30,6 +30,7 @@ def translate(a1):
 
     return c
 
+#This is an example, please change accordingly
 a = ["#include <iostream>\n", "using namespace std;\n"]
 b = []
 c = ["int main () {", "int a", ";\n", "a", " = ", [2, " * ", 5.6], " + ", 4, ";\n","return 0;\n" + "}"]
